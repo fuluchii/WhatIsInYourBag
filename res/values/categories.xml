@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_names">
+        <item>Accessory</item>
+        <item>DigitalDevice</item>
+        <item>Book</item>
+    </string-array>
+    <array name="country_icons">
+        <item>@drawable/lips</item>
+        <item>@drawable/digitaldevice</item>
+        <item>@drawable/book</item>
+    </array>
+
+    <array name="DigitalDevice">
+        <item>cellphone</item>
+        <item>camera</item>
+        <item>psp</item>
+        <item>pad</item>
+    </array>
+
+    <array name="DigitalDeviceIcons">
+        <item>@drawable/psp</item>
+        <item>@drawable/psp</item>
+        <item>@drawable/psp</item>
+        <item>@drawable/psp</item>
+    </array>
+
+    <array name="Accessory">
+        <item>cellphone</item>
+        <item>camera</item>
+        <item>psp</item>
+        <item>pad</item>
+    </array>
+
+    <array name="AccessoryIcons">
+        <item>@drawable/psp</item>
+        <item>@drawable/psp</item>
+        <item>@drawable/psp</item>
+        <item>@drawable/psp</item>
+    </array>
+</resources>

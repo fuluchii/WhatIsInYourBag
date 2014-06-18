@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+        >
+    <TextView
+            android:id="@+id/textView1"
+            android:text="Choose Category"
+            android:layout_height="100px"
+            android:layout_width="match_parent"
+            android:textAlignment="center" android:background="#97ccda" android:focusableInTouchMode="false"
+            android:focusable="true" android:singleLine="true" android:phoneNumber="true" android:textColor="#fcf9f8"
+            android:textIsSelectable="false" android:textSize="60px"/>
+    <ListView
+            android:id="@android:id/list"
+            android:layout_height="450dp"
+            android:layout_width="match_parent"
+            android:layout_below="@id/textView1"
+            android:background="#97ccda"></ListView>
+</RelativeLayout>
